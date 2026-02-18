@@ -1,31 +1,23 @@
-function App() {
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
+
+export default function App() {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.title}>Mathew Behnke</h1>
-      <p style={styles.subtitle}>Software Engineer</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-const styles = {
-  container: {
-    height: "100vh",
-    display: "flex",
-    flexDirection: "column" as const,
-    justifyContent: "center",
-    alignItems: "center",
-    fontFamily: "system-ui, sans-serif",
-    backgroundColor: "#f8f9fa",
-  },
-  title: {
-    fontSize: "3rem",
-    margin: 0,
-  },
-  subtitle: {
-    fontSize: "1.2rem",
-    color: "#666",
-    marginTop: "0.5rem",
-  },
-};
-
-export default App;
