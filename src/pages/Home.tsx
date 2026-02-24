@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       {/* Full-screen background split (Home page only) */}
-      <div className="fixed inset-0 -z-10 bg-[linear-gradient(to_right,_white_75%,_#bae6fd_25%)]" />
+      <div className="fixed inset-0 -z-10 bg-[linear-gradient(to_right,_#F8F6F0_75%,_#9ea2ff_25%)]" />
 
       <section className="grid items-center gap-10 md:grid-cols-2">
         {/* Left Side - Text */}

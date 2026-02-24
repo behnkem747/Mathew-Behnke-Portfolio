@@ -12,14 +12,14 @@ export default function Projects() {
     {
       title: "ROSIE Dashboard (In Progress)",
       tech: "React | JavaScript | Docker | GitLab",
-      image: "/rosie.jpg",
+      image: "/dashboard.jpg",
       description:
         "Inheriting and extending a supercomputer metrics dashboard originally developed by previous students. Developing a React-based web client to display CPU, GPU, memory, and network usage in real time. Integrated front-end components with backend API endpoints to replace mock data with live data. Worked within a containerized development environment using Docker and collaborated via GitLab using feature branches and code reviews.",
     },
     {
       title: "ASL Letter Recognition",
       tech: "Python | TensorFlow | CNN | Computer Vision",
-      image: "/asl.jpg",
+      image: "/ASL_DATA (2).png",
       description:
         "Developed a computer vision model to classify American Sign Language letters from image data. Built and trained a convolutional neural network (CNN) and applied data augmentation and transfer learning to significantly improve model accuracy. Compared the CNN model against a logistic regression baseline to demonstrate the advantages of deep learning for image classification tasks.",
     },
