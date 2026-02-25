@@ -5,7 +5,7 @@ export default function Projects() {
     {
       title: "Wordle-Style Game (Java)",
       tech: "Java | Git",
-      image: "/wordle.webp",
+      image: "/wordle-personal.png",
       description:
         "Collaborated within a software engineering team to design and develop a Wordle-style word-guessing game in Java. Used Git and GitHub for version control, task coordination, and peer code reviews. Built a secure login system using file I/O to store player credentials and statistics. Gained hands-on experience in collaborative software development and project planning.",
     },
@@ -29,6 +29,12 @@ export default function Projects() {
       image: "/population-density.jpg",
       description:
         "I was part of a duo that developed a modern React web application that visualizes global population density on an interactive world map with heat color scales. Features include multiple metrics, country detail panels, responsive design, dark mode, and real-time analytics backed by an Express API and MongoDB.",
+    },
+    {
+      title: "Personal Portfolio Website",
+      tech: "React | TypeScript | Tailwind CSS | HTML",
+      image: "/React-Typescript.webp",
+      description: "Designed and developed a personal portfolio website using React, TypeScript, and Tailwind CSS to showcase my projects and skills with web development.",
     },
   ];
 
