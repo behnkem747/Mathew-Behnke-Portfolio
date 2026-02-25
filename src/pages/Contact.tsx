@@ -13,7 +13,7 @@ export default function Contact() {
 
       <div className="grid gap-6 md:grid-cols-2">
         {/* Form */}
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
+        <div className="rounded-2xl border bg-[#F8F6F0] p-6 shadow-sm">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="text-sm font-medium text-gray-700">Name</label>
@@ -58,7 +58,7 @@ export default function Contact() {
         </div>
 
         {/* Info */}
-        <div className="rounded-2xl border bg-white p-6 shadow-sm">
+        <div className="rounded-2xl border bg-[#F8F6F0] p-6 shadow-sm">
           <h2 className="text-lg font-semibold">Quick Info</h2>
           <p className="mt-2 text-sm text-gray-600">
             You can also reach me directly here:

@@ -12,7 +12,7 @@ export default function ProjectCard({
   image,
 }: ProjectCardProps) {
   return (
-    <div className="overflow-hidden rounded-xl border bg-white shadow-sm transition hover:shadow-md">
+    <div className="overflow-hidden rounded-xl border bg-[#F8F6F0] shadow-sm transition hover:shadow-md">
       
       {/* Image Section */}
       <div className="h-48 w-full overflow-hidden">

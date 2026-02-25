@@ -29,7 +29,6 @@ export default function About() {
 
       {/* Row 2 (Staggered) */}
       <section className="grid items-center gap-12 md:grid-cols-2">
-        {/* Image (left on desktop) */}
         <div className="order-1 md:order-none">
           <img src="/gi.jpg" alt="Why I Chose Software Engineering" className="h-80 w-full max-w-sm rounded-2xl object-cover shadow-sm" />
         </div>
