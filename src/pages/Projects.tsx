@@ -26,7 +26,7 @@ export default function Projects() {
     {
       title: "Population Density Map",
       tech: "MongoDB | React | JavaScript | Tailwind | Leaflet",
-      image: "/Population.png",
+      image: "/popdensity.png",
       description:
         "I was part of a duo that developed a modern React web application that visualizes global population density on an interactive world map with heat color scales. Features include multiple metrics, country detail panels, responsive design, dark mode, and real-time analytics backed by an Express API and MongoDB.",
     },
