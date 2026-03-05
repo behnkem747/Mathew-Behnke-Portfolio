@@ -17,7 +17,7 @@ export default function Home() {
             <p className="max-w-xl text-lg text-gray-700">
               I’m a student at MSOE pursuing a Bachelor of Science in Software
               Engineering with a minor in Data Science. I have a passion for
-              building web applications and learning new technologies. 
+              building software solutions and learning new technologies. 
               Feel free to check out my resume and projects, and don’t
               hesitate to reach out if you’d like to connect!
             </p>
