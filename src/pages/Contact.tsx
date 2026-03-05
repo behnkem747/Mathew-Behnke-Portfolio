@@ -1,6 +1,5 @@
 'use client';
 
-import type React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {

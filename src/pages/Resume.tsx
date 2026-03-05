@@ -15,7 +15,7 @@ export default function Resume() {
 
       <div className="h-[80vh] w-full overflow-hidden rounded-lg border">
         <iframe
-          src="/resume.pdf"
+          src="/Mathew_Behnke_Resume.pdf"
           title="Resume"
           className="h-full w-full"
         />
